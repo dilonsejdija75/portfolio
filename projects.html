@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Dilon Sejdija | Frontend Developer</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><a href="index.html">Portfolio</a></h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="projects-hero">
+        <div class="container">
+            <div class="projects-hero-content">
+                <h1>My Projects</h1>
+                <p class="projects-subtitle">A showcase of my frontend development work using HTML, CSS, and JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section">
+        <div class="container">
+            <div class="filter-tabs">
+                <button class="filter-tab active" onclick="filterProjects('all')">All Projects</button>
+                <button class="filter-tab" onclick="filterProjects('saas')">SaaS</button>
+                <button class="filter-tab" onclick="filterProjects('business')">Business</button>
+                <button class="filter-tab" onclick="filterProjects('dashboard')">Dashboard</button>
+            </div>
+            
+            <div class="projects-grid-full">
+                <div class="project-card-detailed" data-category="saas">
+                    <div class="project-image-large">
+                        <img src="assets/images/saas.png" alt="SaaS Landing Page">
+
+                    </div>
+                    <div class="project-info-detailed">
+                        <div class="project-meta">
+                            <div class="project-category">SaaS</div>
+                            <div class="project-date">March 2024</div>
+                        </div>
+                        <h3>SaaS Landing Page</h3>
+                        <p class="project-description">Modern landing page for a SaaS product featuring clean design, conversion-focused layout, and responsive animations. Built with semantic HTML5, modern CSS3 techniques, and interactive JavaScript.</p>
+                        <ul class="project-features-list">
+                            <li><i class="fas fa-check"></i> Responsive design for all devices</li>
+                            <li><i class="fas fa-check"></i> Smooth scroll animations</li>
+                            <li><i class="fas fa-check"></i> Contact form with validation</li>
+                            <li><i class="fas fa-check"></i> SEO optimised structure</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://regal-cendol-476601.netlify.app/" target="_blank" class="project-btn primary">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card-detailed" data-category="business">
+                    <div class="project-image-large">
+                        <img src="assets/images/agency.png" alt="Agency Website">
+
+                    </div>
+                    <div class="project-info-detailed">
+                        <div class="project-meta">
+                            <div class="project-category">Business</div>
+                            <div class="project-date">February 2024</div>
+                        </div>
+                        <h3>Agency Website</h3>
+                        <p class="project-description">Professional agency website showcasing services, portfolio, and team. Features smooth animations, contact forms, and mobile-first responsive design with modern UI elements.</p>
+                        <ul class="project-features-list">
+                            <li><i class="fas fa-check"></i> Professional business design</li>
+                            <li><i class="fas fa-check"></i> Team showcase section</li>
+                            <li><i class="fas fa-check"></i> Service portfolio display</li>
+                            <li><i class="fas fa-check"></i> Mobile-optimised interface</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://clever-baklava-90bd9e.netlify.app/" target="_blank" class="project-btn primary">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card-detailed" data-category="dashboard">
+                    <div class="project-image-large">
+                        <img src="assets/images/fitness.png" alt="Health and Fitness Tracker Dashboard">
+
+                    </div>
+                    <div class="project-info-detailed">
+                        <div class="project-meta">
+                            <div class="project-category">Dashboard</div>
+                            <div class="project-date">January 2024</div>
+                        </div>
+                        <h3>Health and Fitness Tracker Dashboard</h3>
+                        <p class="project-description">Interactive fitness dashboard with progress tracking, data visualisation, and goal setting features. Clean interface with charts, statistics, and responsive design for health monitoring.</p>
+                        <ul class="project-features-list">
+                            <li><i class="fas fa-check"></i> Interactive data visualisation</li>
+                            <li><i class="fas fa-check"></i> Progress tracking system</li>
+                            <li><i class="fas fa-check"></i> Goal setting interface</li>
+                            <li><i class="fas fa-check"></i> Responsive dashboard layout</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://polite-axolotl-48a922.netlify.app/" target="_blank" class="project-btn primary">
+                                <i class="fas fa-external-link-alt"></i> View Live
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Like What You See?</h2>
+                <p>Let's work together to create something amazing for your business.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="cta-btn primary">Start a Project</a>
+                    <a href="services.html" class="cta-btn secondary">View Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dilon Sejdija</h3>
+                    <p>Frontend Developer specialising in HTML, CSS & JavaScript. Creating clean, responsive websites with modern design principles.</p>
+
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">Responsive Design</a></li>
+                        <li><a href="services.html">UI/UX Design</a></li>
+                        <li><a href="services.html">Performance Optimisation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Get In Touch</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> dilonsejdija40@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +44 7936807933</p>
+                        <p><i class="fas fa-map-marker-alt"></i> London, UK</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dilon Sejdija. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        function filterProjects(category) {
+            const cards = document.querySelectorAll('.project-card-detailed');
+            const tabs = document.querySelectorAll('.filter-tab');
+            
+            // Update active tab
+            tabs.forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Filter cards
+            cards.forEach(card => {
+                if (category === 'all' || card.dataset.category === category) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
